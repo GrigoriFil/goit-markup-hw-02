@@ -5,7 +5,6 @@ body{
 }
 
 .logo{
-        font-family: var(--second-family);
         font-weight: 700;
         font-size: 18px;
         line-height: 117%;
@@ -15,7 +14,6 @@ body{
 }
 
 .menu{
-        font-family: var(--font-family);
         font-weight: 500;
         font-size: 16px;
         line-height: 150%;
@@ -24,8 +22,6 @@ body{
 }
 
 .contact-information{
-    font-family: var(--font-family);
-    font-weight: 400;
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
@@ -33,7 +29,6 @@ body{
 }
 
 .main{
-        font-family: var(--font-family);
         font-weight: 700;
         font-size: 56px;
         line-height: 107%;
@@ -43,7 +38,6 @@ body{
 }
 
 .button{
-        font-family: var(--font-family);
         font-weight: 500;
         font-size: 16px;
         line-height: 150%;
@@ -52,7 +46,6 @@ body{
 }
 
 .main-header{
-        font-family: var(--font-family);
         font-weight: 700;
         font-size: 36px;
         line-height: 111%;
@@ -62,7 +55,6 @@ body{
 }
 
 .header-values{
-        font-family: var(--font-family);
         font-weight: 500;
         font-size: 20px;
         line-height: 120%;
@@ -71,8 +63,6 @@ body{
 }
 
 .paragraph-values{
-        font-family: var(--font-family);
-        font-weight: 400;
         font-size: 16px;
         line-height: 150%;
         letter-spacing: 0.02em;
@@ -80,7 +70,6 @@ body{
 }
 
 .header-team{
-        font-family: var(--font-family);
         font-weight: 500;
         font-size: 20px;
         line-height: 120%;
@@ -89,8 +78,6 @@ body{
 }
 
 .paragraph-team{
-        font-family: var(--font-family);
-        font-weight: 400;
         font-size: 16px;
         line-height: 150%;
         letter-spacing: 0.02em;
@@ -98,7 +85,6 @@ body{
 }
 
 .header-portfolio{
-        font-family: var(--font-family);
         font-weight: 500;
         font-size: 20px;
         line-height: 120%;
@@ -107,8 +93,6 @@ body{
 }
 
 .paragraph-portfolio{
-        font-family: var(--font-family);
-        font-weight: 400;
         font-size: 16px;
         line-height: 150%;
         letter-spacing: 0.02em;
@@ -116,8 +100,6 @@ body{
 }
 
 .paragraph-footer{
-        font-family: var(--font-family);
-        font-weight: 400;
         font-size: 16px;
         line-height: 150%;
         letter-spacing: 0.02em;
