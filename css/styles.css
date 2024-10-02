@@ -17,7 +17,7 @@ a{
         font-family: "Raleway", sans-serif;
         font-weight: 700;
         font-size: 18px;
-        line-height: 1.16667;
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
@@ -27,7 +27,7 @@ a{
         font-family: "Raleway", sans-serif;
         font-weight: 700;
         font-size: 18px;
-        line-height: 1.16667;
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #2e2f42;
@@ -42,8 +42,17 @@ a{
         color: #2e2f42
 }
 
+.menu:hover{
+        color:#404bbf
+}
+
+.menu:focus{
+        color: #404bbf
+}
+
 .contact-information{
         font-family: "Roboto", sans-serif;
+        font-style: normal;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
@@ -67,13 +76,23 @@ a{
         line-height: 1.5;
         letter-spacing: 0.04em;
         color: #fff;
+        background-color: #4D5AE5;
+        cursor: pointer;
+}
+
+.button:hover{
+        background-color: #404BBF;
+}
+
+.button:focus{
+        background-color: #404BBF;
 }
 
 .main-header{
         font-family: var(--font-family);
         font-weight: 700;
         font-size: 36px;
-        line-height: 1.11111;
+        line-height: 1.07;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
@@ -119,9 +138,10 @@ a{
         font-family: var(--font-family);
         font-weight: 500;
         font-size: 20px;
-        line-height: 1.2;
+        line-height: 1.11;
         letter-spacing: 0.02em;
         color: #2e2f42;
+        text-transform: capitalize;
 }
 
 .paragraph-portfolio{
@@ -138,4 +158,8 @@ a{
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #f4f4fd;
+}
+
+footer{
+        background-color: #2e2f42;
 }
