@@ -132,11 +132,14 @@ a{
         background-color:#F4F4FD ;
 }
 
+.list-team{
+        background-color: #FFFFFF;
+}
 .header-team{
         font-family: "Roboto", sans-serif;
         font-weight: 500;
         font-size: 20px;
-        line-height: 1.11;
+        line-height: 1.2;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
@@ -169,7 +172,7 @@ a{
 .paragraph-portfolio{
         font-family: "Roboto", sans-serif;
         font-size: 16px;
-        line-height: 1.11;
+        line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
 }
