@@ -59,11 +59,11 @@ a{
         color: #434455;
 }
 
-.contact-informati:hover{
+.contact-information:hover{
         color: #404bbf;
 }
 
-.contact-informati:focus{
+.contact-information:focus{
         color:#404bbf
 }
 
@@ -101,13 +101,14 @@ a{
 }
 
 .main-header{
-        font-family: var(--font-family);
+        font-family: "Roboto", sans-serif;
         font-weight: 700;
         font-size: 36px;
-        line-height: 1.07;
+        line-height: 1.11;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
+        text-transform: capitalize;
 }
 
 .header-values{
@@ -129,10 +130,6 @@ a{
 
 .section-team{
         background-color:#F4F4FD ;
-}
-
-.team-class{
-        background-color: #FFFFFF;
 }
 
 .header-team{
