@@ -1,0 +1,142 @@
+:root {
+    --primary-font: "Roboto", sans-serif;
+    --secondary-font: "Raleway", sans-serif;
+    --text-color: #434455;
+    --title-color: #2e2f42;
+    --accent-color: #4d5ae5;
+    --accent-hover: #404bbf;
+    --bg-light: #f4f4fd;
+    --bg-white: #ffffff;
+}
+
+body {
+    font-family: var(--primary-font);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+    background-color: var(--bg-white);
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo, .logo-span {
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.logo {
+    color: var(--accent-color);
+}
+
+.logo-span {
+    color: var(--title-color);
+}
+
+.logo-span-footer {
+    color: var(--bg-light);
+}
+
+.menu {
+    font-weight: 500;
+    color: var(--title-color);
+}
+
+.menu:hover, 
+.menu:focus,
+.contact-information:hover, 
+.contact-information:focus {
+    color: var(--accent-hover);
+}
+
+.button {
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    color: var(--bg-white);
+    background-color: var(--accent-color);
+    cursor: pointer;
+}
+
+.button:hover, 
+.button:focus {
+    background-color: var(--accent-hover);
+}
+
+.main {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    color: var(--bg-white);
+}
+
+.main-header {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    color: var(--title-color);
+    text-transform: capitalize;
+}
+
+.header-values, 
+.header-team, 
+.header-portfolio {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--title-color);
+}
+
+.header-team {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.header-portfolio {
+    text-transform: capitalize;
+}
+
+.main-information,
+footer {
+    background-color: var(--title-color);
+}
+
+.section-team {
+    background-color: var(--bg-light);
+}
+
+.list-team {
+    background-color: var(--bg-white);
+}
+
+.paragraph-team {
+    text-align: center;
+}
+
+.paragraph-footer {
+    color: var(--bg-light);
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
